@@ -1,0 +1,346 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+}
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.left-section {
+  width: 32%;
+  background-color: #FFFFFF;
+}
+
+.contact-section,
+.knowledge-section,
+.languages-section {
+  margin: 20px;
+
+}
+
+.contact-section{
+  margin-top: 24px;
+}
+
+.left-section ul,
+.left-section li,
+.left-section h1,
+.left-section h2,
+.left-section h3{
+  color: black;
+  font-size: 15px;
+  margin-left: 11px;
+}
+
+
+/* titulo contacto*/
+.left-section h3{
+  letter-spacing: 1.9px;
+  font-size: 12px;
+  font-style: normal;
+  }
+
+/* texto unido al icono*/
+ td{
+  font-size: 12px;
+   padding-bottom: 10px;
+}
+
+/* conjunto iconos y texto*/
+td i{
+  margin-left: 8px;
+  margin-right: 9px;   /* Agrega un margen de 5px en el lado derecho del icono */
+}
+
+.knowledge-section {
+  overflow: auto; /* Oculta el contenido que se desborda */
+}
+.knowledge-section li {
+  padding-left: 10px; /* Ajusta el padding izquierdo según tus preferencias */
+  text-indent: -15px; /* Ajusta el valor negativo para compensar el padding */
+  margin-bottom: 7px;
+}
+
+.left-section .horizontal-line{
+  border: none;
+  border-top: 2px solid black;
+  margin: 20px 0;
+  width: 75%;
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.left-section p{
+  color: black;
+  font-size: 12px;
+  margin-left: 11px;
+}
+
+
+.left-section li{
+  list-style-type: disc;
+  margin-top: 1px;
+ 
+}
+
+.left-section .sublista {
+  list-style-type: circle;
+  margin: -10px 0 -10px -10px;
+}
+
+.left-section h4{
+  margin-left: 11px;
+  font-size: 13px;
+  }
+
+
+.photo img {
+    max-width: 65%;
+    border-radius: 50%;
+  }
+
+.photo{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.right-section {
+  width: 68%;
+  background-color: #236E94;
+}
+
+.right-section p,
+.right-section ul,
+.right-section li,
+.right-section h1,
+.right-section h4{
+  color: white;
+  margin-left: 25px;
+  letter-spacing: 0.8px;
+}
+
+.right-section h2{
+  margin-bottom: 25px;
+  margin-top: 25px;
+  background-color: white;
+  color: grey;
+  margin-left: 25px;
+  width: 82%; /* Ajusta el valor según tus necesidades */
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1.9px;
+  text-indent: 40px;
+}
+
+.right-section h1{
+  letter-spacing: 1.9px;
+  font-size: 35px;
+}
+
+ .right-section .titulo {
+  letter-spacing: 1.9px;
+  font-size: 25px;
+}
+
+.dxc{
+  float: right;
+  width: 90px;
+  margin-left: 10px;
+  margin-right: 56px
+}
+
+.tec36{
+  float: right;
+  width: 65px;
+  margin-left: 10px;
+  margin-right: 56px;
+  border-radius: 50%;
+}
+
+
+.cisco{
+  float: right;
+  width: 90px;
+  height: 35px;
+  margin-right: 49px;
+}
+
+
+.coursera{
+  float: right;
+  width: 90px;
+  margin-right: 49px;
+}
+
+
+.edx{
+  float: right;
+  width: 85px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+.webdeveloper{
+  float: right;
+  width: 89px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 50px;
+}
+
+
+.etn36{
+  float: right;
+  width: 60px;
+  margin-left: 10px;
+  margin-right: 50px;
+  border-radius: 50%;
+}
+
+
+
+.horizontal-line-titulo {
+  border: none;
+  border-top: 2px solid white;
+  margin: 20px 0;
+  width: 20%;
+  margin-left: 25px;
+}
+
+.horizontal-line {
+  border: none;
+  border-top: 2px solid white;
+  margin: 20px 0;
+  width: 90%;
+  margin-left: 25px;
+}
+
+
+ .right-section h4 {
+ font-weight: normal;
+ font-size: 13px;
+   font-weight: normal;
+}
+
+ .right-section h3 {
+  color: white;
+  margin-left: 25px;
+  font-size: 15px;
+
+}
+
+
+.right-section li{
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 4px;
+  font-weight: bold;
+}
+
+
+.sublista{
+  margin-left: 10px;
+}
+
+
+
+
+
+/* Botones */
+
+
+.certif-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+
+
+.button-1,
+.button-2,
+.button-3,
+.button-4{
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid white; /* Borde blanco */
+    color: white; /* Letras blancas */
+    text-align: right;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold; /* Letras en negrita */
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+
+
+.button-1:hover,
+.button-2:hover,
+.button-3:hover,
+.button-4:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+
+.estilo-boton {
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid white; /* Borde blanco */
+    color: white; /* Letras blancas */
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold; /* Letras en negrita */
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: 25px;
+    transition-duration: 0.4s;
+  }
+
+
+
+.estilo-boton:hover {
+  background-color: white; /* Green */
+  color: black;
+}
+
+.boton-curriculum{
+    background-color: transparent; /* Fondo transparente */
+    border: 2px solid black; /* Borde blanco */
+    color: black; /* Letras blancas */
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold; /* Letras en negrita */
+    margin: 10px 12px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: -10px;
+    transition-duration: 0.4s;
+  }
+
+.boton-curriculum:hover {
+  background-color: #236E94; /* Green */
+  color: white;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
