@@ -8,7 +8,7 @@ document.getElementById("mi-boton").addEventListener("click", function(event) {
   // Esperar a que la animación termine antes de redirigir
   setTimeout(function() {
     // Redirigir al usuario al enlace deseado
-    window.location.href = "cristianpz.github.io";
+    window.location.href = "https://cristianpz.github.io/";
   }, 1500); // 2500 ms = 2.5 segundos
 });
 
