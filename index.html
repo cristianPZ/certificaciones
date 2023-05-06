@@ -4,11 +4,12 @@
   <title>Mi CV</title>
    <link rel="stylesheet" href="styles.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 </head>
 <body>
-  <div class="container">
+  <div transition-style="in:square:bottom-right"  class="container">
     <!-- Comienza la seccion izquierda-->
-    <div class="left-section"> 
+    <div class="left-section" transition-style="transition-left"> 
       <div class="photo">
         <img src="img/mifoto.jpg" alt="Mi foto">
       </div>
@@ -72,14 +73,14 @@
       </div>
       <div class="button-container">
         <a href="https://cristianpz.github.io/"  >
-            <button class="boton-curriculum">Curriculum</button>
+            <button class="boton-curriculum" id="mi-boton">Curriculum</button>
         </a>
       </div>
       
     </div>
   
     <!-- Comienza la seccion Derecha-->
-    <div class="right-section">
+    <div class="right-section" transition-style="transition-entrance">
       <h1>PEREYRA CRISTIAN</h1>
       <hr class="horizontal-line-titulo">
       <h1 class="titulo">TÉCNICO  EN COMPUTACION</h1>
@@ -91,28 +92,28 @@
 
             <div class="cisco-section">
               <li >Direccionamiento de red y solución de problemas
-               <a href="https://www.credly.com/badges/9d4dc30f-af58-4f3d-b76f-e61dba37c5ae/public_url">
+               <a href="https://www.credly.com/badges/9d4dc30f-af58-4f3d-b76f-e61dba37c5ae/public_url" target="_blank">
                <button class="button-1">Credencial</button>
                </a>
               </li>
 
               <li>
                 Dispositivos de red y configuración inicial
-               <a href="https://www.credly.com/badges/577ce409-0c34-4f29-bb23-8d6599d224b7/public_url">
+               <a href="https://www.credly.com/badges/577ce409-0c34-4f29-bb23-8d6599d224b7/public_url" target="_blank">
                <button class="button-2">Credencial</button>
                </a>
               </li>
               
               <li>
                 Conceptos básicos de redes
-                <a href="https://www.credly.com/badges/f0270272-8e8a-4458-8e29-14c320c8593f/public_url">
+                <a href="https://www.credly.com/badges/f0270272-8e8a-4458-8e29-14c320c8593f/public_url" target="_blank">
                <button class="button-3">Credencial</button>
                </a>
               </li>
 
               <li>
                 Introducción a la Ciberseguridad
-                <a href="https://www.credly.com/badges/fe151ce2-91e5-40d9-b3d5-dbf93ebe0768/public_url">
+                <a href="https://www.credly.com/badges/fe151ce2-91e5-40d9-b3d5-dbf93ebe0768/public_url" target="_blank">
                <button class="button-4">Credencial</button>
                </a>
               </li>
@@ -124,7 +125,7 @@
           <img src="img/coursera.png" alt="coursera logo" class="coursera" >
           <h3>Introduction to SQL | 2023</h3>
           <h4>Coursera | University of Michigan</h4>
-            <a href="https://www.coursera.org/account/accomplishments/verify/PVASGAAVSBZA">
+            <a href="https://www.coursera.org/account/accomplishments/verify/PVASGAAVSBZA" target="_blank">
             <button class="estilo-boton">Mostrar credencial</button>
           </a>
           <hr class="horizontal-line">
@@ -135,14 +136,14 @@
           <img src="img/webdeveloper.png" alt="web logo" class="webdeveloper" >
           <h3>Desarrollador web front-end | 2017</h3>
           <h4>Gobierno de la ciudad de Buenos Aires</h4>
-          <a href="https://imgur.com/a/9dm0Iya">
+          <a href="https://imgur.com/a/9dm0Iya" target="_blank">
             <button class="estilo-boton">Mostrar credencial</button>
           </a>
           <hr class="horizontal-line">
           <img src="img/tecnica36.jpg" alt="tecnica36 logo" class="etn36" >
           <h3>Tecnico en computacion | 2017</h3>
           <h4>Escuela tecnica 36 Distrito 15</h4>
-          <a href="https://imgur.com/a/2nu0XS5">
+          <a href="https://imgur.com/a/2nu0XS5" target="_blank"> 
             <button class="estilo-boton">Mostrar credencial</button>
           </a>
           <!-- Puedes agregar más cursos complementarios aquí -->
@@ -152,6 +153,5 @@
 
   </div>
 
-</body>
+</body>   <script src="javascript.js"></script>
 </html>
-```
