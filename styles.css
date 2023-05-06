@@ -1,4 +1,5 @@
-body {
+
+  body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -344,34 +345,43 @@ td i{
   justify-content: center;
 }
 
+/* aplica la transicion de entrada al iniciar la pagina*/
 
-
-@keyframes square-in-bottom-right {
+@keyframes wipe-in-right {
   from {
-    clip-path: inset(0 100% 100% 0);
+    clip-path: inset(0 100% 0 0);
   }
   to {
     clip-path: inset(0 0 0 0);
   }
-  
 }
 
 [transition-style="transition-entrance"] {
-  animation: 3s cubic-bezier(.25, 1, .30, 1) square-in-bottom-right both;
+  animation: 2.5s cubic-bezier(.25, 1, .30, 1) wipe-in-right both;
 }
 
 
-@keyframes square-out-bottom-right {
+/* aplica la transicion de salida al cambiar de pagina*/
+
+@keyframes wipe-out-left {
   from {
     clip-path: inset(0 0 0 0);
   }
   to {
-    clip-path: inset(100% 0 0 100%);
+    clip-path: inset(0 100% 0 0);
   }
 }
 
-
 .animated {
-  animation: 2s cubic-bezier(.25, 1, .30, 1) square-out-bottom-right both;
+  animation: 2s cubic-bezier(.25, 1, .30, 1) wipe-out-left both;
 }
 
+
+
+@keyframes shadow-drop-center {
+  0%{box-shadow:0 0 0 0 transparent}100%{box-shadow:0 0 40px 0 rgba(255,255,255,.9)}
+}
+
+.boton-animado{
+  animation:shadow-drop-center 1.5s linear both
+}
